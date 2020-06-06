@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+</head>
+
+<body>
+    <h1>NEW FIGHTER</h1>
+    <div class="container">
+        <form>
+            <p>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <a href="index.php">Go back -></a>
+            </p>
+            <p>
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" required>
+            </p>
+            <p>
+                <label for="catInfo">Cat info</label>
+                <input type="text" id="catInfo" name="catInfo" required>
+            </p>
+            <p>
+                <label for="wins">Wins</label>
+                <input type="number" id="wins" name="wins" required>
+                <label for="loss">Loss</label>
+                <input type="number" id="loss" name="loss" required>
+            </p>
+            <p>
+                <label for="uploadFile">Cat Image</label>
+                <input name="uploadFile" type="file" required>
+            </p>
+            <p>
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </p>
+        </form>
+    </div>
+    <script src="./src/add.js"></script>
+</body>
+
+</html>
